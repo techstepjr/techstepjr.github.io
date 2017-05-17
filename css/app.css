@@ -87,6 +87,7 @@ body {
 .cta_red:hover {
     background: #c80900;
     color: #fff;
+    cursor: pointer;
 }
 
 #marker {
