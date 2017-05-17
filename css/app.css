@@ -1,3 +1,4 @@
+/*Created By Jio Mamaoag*/
 :root::before {
     content: url(../media/img/hero.jpg), url(../media/img/wma.jpg), url(../media/img/smba.jpg);
     visibility: hidden;
