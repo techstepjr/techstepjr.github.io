@@ -1,0 +1,118 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-nav{
+    background: rgba(255,255,255,1);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 1.5em;
+}
+.main-nav ul{
+    list-style: none;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.right li{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.container{
+    margin-left: 30em;
+}
+
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 100%;;
+  margin: 28.87px 8px;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 115.4701px;
+}
+
+.lists{
+    display: flex;
+    margin-left: -10em;
+    margin-bottom: -2em;
+}
+.lists-5{
+    display: flex;
+    margin-left: -16em;
+    margin-top: 0em;
+    margin-bottom: -2em;
+}
+
+#trailblazer{
+    background: url(../media/img/posters/wma/trailblazer.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#absidy{
+    background: url(../media/img/posters/wma/absidy.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#antematix{
+    background: url(../media/img/posters/wma/antematix.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#fnaticfour{
+    background: url(../media/img/posters/wma/fnaticfour.png);
+    background-size: cover;
+    background-position: center center;
+}
+#jaf{
+    background: url(../media/img/posters/wma/jaf.PNG);
+    background-size: cover;
+    background-position: center center;
+}
+#kerj{
+    background: url(../media/img/posters/wma/kerj.png);
+    background-size: cover;
+    background-position: center center;
+}
+#kings{
+    background: url(../media/img/posters/wma/kings.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#menarchy{
+    background: url(../media/img/posters/wma/menarchy.png);
+    background-size: cover;
+    background-position: center center;
+}
+#quadcore{
+    background: url(../media/img/posters/wma/quadcore.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#skye{
+    background: url(../media/img/posters/wma/skeye.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#sodocode{
+    background: url(../media/img/posters/wma/sodocode.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#ssense{
+    background: url(../media/img/posters/wma/ssense.png);
+    background-size: cover;
+    background-position: center center;
+}
+#thesisit{
+    background: url(../media/img/posters/wma/thesisit.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+section > a:hover > .hexagon{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

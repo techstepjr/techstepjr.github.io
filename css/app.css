@@ -1,11 +1,4 @@
 /*Created By Jio Mamaoag*/
-:root::before {
-    content: url(../media/img/hero.jpg), url(../media/img/wma.jpg), url(../media/img/smba.jpg);
-    visibility: hidden;
-    position: absolute;
-    left: -999em;
-}
-
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
